@@ -41,6 +41,6 @@ if __name__ == "__main__":
     length2 = l2.length_of_line()
     print(length2)
     l1.line_equality(l2)
-    print(length1)
+    
 
    
