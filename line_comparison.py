@@ -33,6 +33,14 @@ if __name__ == "__main__":
     y2 = int(input("Enter value for second point on Y axis : "))
     l1 = Line({'x1': x1, 'x2': x2, 'y1': y1, 'y2': y2})
     length1 = l1.length_of_line()
+    x1 = int(input("Enter value for first point on X axis : "))
+    x2 = int(input("Enter value for second point on X axis : "))
+    y1 = int(input("Enter value for first point on Y axis : "))
+    y2 = int(input("Enter value for second point on Y axis : "))
+    l2 = Line({'x1': x1, 'x2': x2, 'y1': y1, 'y2': y2})
+    length2 = l2.length_of_line()
+    print(length2)
+    l1.line_equality(l2)
     print(length1)
 
    
